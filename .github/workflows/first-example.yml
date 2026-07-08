@@ -5,6 +5,8 @@ jobs:
     first_job:
         runs-on: ubuntu-latest
         steps:
+        - name: checkout repo
+          uses: actions/checkout@v7
         - name: Welcome messgae
           run: echo "my first action"
         -name: List files
