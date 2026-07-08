@@ -9,9 +9,9 @@ jobs:
           uses: actions/checkout@v7
         - name: Welcome messgae
           run: echo "my first action"
-        -name: List files
-         run: ls
+        - name: List files
+          run: ls
 
-        -name: Read files
-         run: cat README.md
+        - name: Read files
+          run: cat README.md
         
